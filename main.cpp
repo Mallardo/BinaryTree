@@ -1,4 +1,6 @@
 #include <iostream>
+#include <conio.h>
+
 using namespace std;
 
 struct Node
@@ -70,5 +72,6 @@ int main()
 	 show(Tree);
 	 cout << '\n';
 	  del(Tree);
+	  getch();
 	  return 0;
 }
